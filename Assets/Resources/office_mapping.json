@@ -1,0 +1,292 @@
+{
+  "offices": [
+    {
+      "office_id": "off_001",
+      "display_name": "Registrar",
+      "node_id": "N4",
+      "is_active": true
+    },
+    {
+      "office_id": "off_002",
+      "display_name": "OSAS",
+      "node_id": "N4",
+      "is_active": true
+    },
+    {
+      "office_id": "off_003",
+      "display_name": "Guidance",
+      "node_id": "N4",
+      "is_active": true
+    },
+    {
+      "office_id": "off_004",
+      "display_name": "CSG",
+      "node_id": "N4",
+      "is_active": true
+    },
+    {
+      "office_id": "off_005",
+      "display_name": "Nexus",
+      "node_id": "N4",
+      "is_active": true
+    },
+    {
+      "office_id": "off_006",
+      "display_name": "MIS",
+      "node_id": "N8",
+      "is_active": true
+    },
+    {
+      "office_id": "off_007",
+      "display_name": "Studio",
+      "node_id": "N8",
+      "is_active": true
+    },
+    {
+      "office_id": "off_008",
+      "display_name": "OJT",
+      "node_id": "N8",
+      "is_active": true
+    },
+    {
+      "office_id": "off_009",
+      "display_name": "Department of Computer Studies",
+      "node_id": "N10",
+      "is_active": true
+    },
+    {
+      "office_id": "off_010",
+      "display_name": "ICT Building B",
+      "node_id": "N12",
+      "is_active": true
+    },
+    {
+      "office_id": "off_011",
+      "display_name": "CCAT Cafe",
+      "node_id": "N14",
+      "is_active": true
+    },
+    {
+      "office_id": "off_012",
+      "display_name": "Comfort Room 3",
+      "node_id": "N15",
+      "is_active": true
+    },
+    {
+      "office_id": "off_013",
+      "display_name": "Covered Court 2",
+      "node_id": "N16",
+      "is_active": true
+    },
+    {
+      "office_id": "off_014",
+      "display_name": "Hostel",
+      "node_id": "N17",
+      "is_active": true
+    },
+    {
+      "office_id": "off_015",
+      "display_name": "Department of Management Studies",
+      "node_id": "N18",
+      "is_active": true
+    },
+    {
+      "office_id": "off_016",
+      "display_name": "TESDA",
+      "node_id": "N20",
+      "is_active": true
+    },
+    {
+      "office_id": "off_017",
+      "display_name": "Accreditation Office",
+      "node_id": "N21",
+      "is_active": true
+    },
+    {
+      "office_id": "off_018",
+      "display_name": "ODI Office",
+      "node_id": "N22",
+      "is_active": true
+    },
+    {
+      "office_id": "off_019",
+      "display_name": "Education Department",
+      "node_id": "N23",
+      "is_active": true
+    },
+    {
+      "office_id": "off_020",
+      "display_name": "CCAT E-Library",
+      "node_id": "N26",
+      "is_active": true
+    },
+    {
+      "office_id": "off_021",
+      "display_name": "Canteen",
+      "node_id": "N33",
+      "is_active": true
+    },
+    {
+      "office_id": "off_022",
+      "display_name": "EBA",
+      "node_id": "N34",
+      "is_active": true
+    },
+    {
+      "office_id": "off_023",
+      "display_name": "Mechanical Department",
+      "node_id": "N35",
+      "is_active": true
+    },
+    {
+      "office_id": "off_024",
+      "display_name": "Clinic",
+      "node_id": "N37",
+      "is_active": true
+    },
+    {
+      "office_id": "off_025",
+      "display_name": "Automotive Department",
+      "node_id": "N42",
+      "is_active": true
+    },
+    {
+      "office_id": "off_026",
+      "display_name": "Research Extension",
+      "node_id": "N46",
+      "is_active": true
+    },
+    {
+      "office_id": "off_027",
+      "display_name": "Accounting Office",
+      "node_id": "N47",
+      "is_active": true
+    },
+    {
+      "office_id": "off_028",
+      "display_name": "Department of Engineering",
+      "node_id": "N49",
+      "is_active": true
+    },
+    {
+      "office_id": "off_029",
+      "display_name": "Supply Office",
+      "node_id": "N50",
+      "is_active": true
+    },
+    {
+      "office_id": "off_030",
+      "display_name": "Cashier",
+      "node_id": "N50",
+      "is_active": true
+    },
+    {
+      "office_id": "off_031",
+      "display_name": "Office of Campus Administrator",
+      "node_id": "N50",
+      "is_active": true
+    },
+    {
+      "office_id": "off_032",
+      "display_name": "Soon",
+      "node_id": "N50",
+      "is_active": true
+    },
+    {
+      "office_id": "off_033",
+      "display_name": "SHS Building",
+      "node_id": "N51",
+      "is_active": true
+    },
+    {
+      "office_id": "off_034",
+      "display_name": "PPSS",
+      "node_id": "N52",
+      "is_active": true
+    },
+    {
+      "office_id": "off_035",
+      "display_name": "Covered Court 1",
+      "node_id": "N55",
+      "is_active": true
+    },
+    {
+      "office_id": "off_036",
+      "display_name": "Comfort Room 2",
+      "node_id": "N57",
+      "is_active": true
+    },
+    {
+      "office_id": "off_037",
+      "display_name": "Pavillion 2",
+      "node_id": "N59",
+      "is_active": true
+    },
+    {
+      "office_id": "off_038",
+      "display_name": "Pavillion 2",
+      "node_id": "N61",
+      "is_active": true
+    },
+    {
+      "office_id": "off_039",
+      "display_name": "Pavillion 1",
+      "node_id": "N62",
+      "is_active": true
+    },
+    {
+      "office_id": "off_040",
+      "display_name": "Comfort Room 1",
+      "node_id": "N63",
+      "is_active": true
+    },
+    {
+      "office_id": "off_041",
+      "display_name": "Technovation Building",
+      "node_id": "N8",
+      "is_active": true
+    },
+    {
+      "office_id": "off_042",
+      "display_name": "ICT Building A",
+      "node_id": "N10",
+      "is_active": true
+    },
+    {
+      "office_id": "off_043",
+      "display_name": "Administration Building 1",
+      "node_id": "N4",
+      "is_active": true
+    },
+    {
+      "office_id": "off_044",
+      "display_name": "Administration Building 2",
+      "node_id": "N50",
+      "is_active": true
+    },
+    {
+      "office_id": "off_045",
+      "display_name": "Building 2",
+      "node_id": "N49",
+      "is_active": true
+    },
+    {
+      "office_id": "off_046",
+      "display_name": "Building 1",
+      "node_id": "N48",
+      "is_active": true
+    },
+    {
+      "office_id": "off_047",
+      "display_name": "Department of Arts and Sciences",
+      "node_id": "N48",
+      "is_active": true
+    },
+    {
+      "office_id": "off_048",
+      "display_name": "Library",
+      "node_id": "N48",
+      "is_active": true
+    }
+  ]
+}

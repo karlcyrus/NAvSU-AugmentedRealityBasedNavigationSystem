@@ -1,0 +1,51 @@
+# =============================================
+#  Unity .gitignore
+# =============================================
+
+# Unity generated
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]serSettings/
+/[Mm]emoryCaptures/
+
+# IDE
+/.vs/
+/.vscode/
+/.idea/
+/.dotnet/
+*.csproj
+*.sln
+*.suo
+*.user
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+
+# Burst debug (do NOT ship)
+*_BurstDebugInformation_DoNotShip/
+
+# Build outputs
+*.apk
+*.aab
+*.unitypackage
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary / misc files that are not part of the project
+tmp_*/
+*.zip
+sheet_dump.txt
+design-mockups/
+Functional_Test_Cases.docx
+
+# Large binary files
+*.psd
+*.exe

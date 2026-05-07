@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7abc3dbfe57c4ad49b19309f187d9e1a, type: 3}
+  m_Name: LightshipSettings
+  m_EditorClassIdentifier: 
+  _apiKey: cym61CND7he4ahKO48B2Yp4HJjB0dEnixgP4zFUL7Y78I9BYSNfb31ZbQtO37inWUVCkmL
+  _useLightshipDepth: 1
+  _preferLidarIfAvailable: 1
+  _useLightshipMeshing: 1
+  _useLightshipSemanticSegmentation: 1
+  _useLightshipScanning: 1
+  _useLightshipPersistentAnchor: 1
+  _useLightshipObjectDetection: 1
+  _useLightshipWorldPositioning: 1
+  _locationAndCompassDataSource: 0
+  _spoofLocationInfo:
+    _latitude: 37.795322
+    _longitude: -122.39243
+    _timestamp: 123456
+    _altitude: 16
+    _horizontalAccuracy: 10
+    _verticalAccuracy: 10
+  _spoofCompassInfo:
+    _magneticHeading: 90
+    _trueHeading: 1.43
+    _headingAccuracy: 1
+    _rawVector: {x: 0.1, y: 0.2, z: 0.3}
+    _timestamp: 123456
+  _unityLogLevel: 3
+  _fileLogLevel: 5
+  _stdoutLogLevel: 5
+  _lightshipSimulationParams:
+    _useZBufferDepth: 1
+    _useSimulationPersistentAnchor: 1
+    _simulationPersistentAnchorParams:
+      m_minimumAnchorDiscoveryTimeSeconds: 1
+      m_maximumAnchorDiscoveryTimeSeconds: 2
+      m_applyTranslationalOffset: 0
+      m_translationalOffsetSeverityMeters: 0.05
+      m_applyRotationalOffset: 0
+      m_rotationalOffsetSeverityDegrees: 1
+      m_surfaceAnchorFailure: 0
+      m_trackingStateReason: 0
+  _devicePlaybackSettings:
+    _usePlayback: 0
+    _playbackDatasetPath: 
+    _runPlaybackManually: 0
+    _loopInfinitely: 0
+    _numberOfIterations: 1
+    _startFrame: 0
+    _endFrame: -1
+  _authBuildSettings: {fileID: 11400000, guid: afe8f65729821b84787b5631627a5ad8, type: 2}

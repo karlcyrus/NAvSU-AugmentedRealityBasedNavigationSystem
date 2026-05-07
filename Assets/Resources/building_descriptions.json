@@ -1,0 +1,292 @@
+{
+  "buildings": [
+    {
+      "office_id": "off_001",
+      "title": "Registrar",
+      "description": "The main office for enrollment, grades, and official student records. This is where you request transcripts and other academic documents.",
+      "hours": "8:00 AM - 5:00 PM"
+    },
+    {
+      "office_id": "off_002",
+      "title": "OSAS",
+      "description": "Focuses on student welfare, development, and discipline. Student organizations also report here for event approvals and accreditations.",
+      "hours": "8:00 AM - 5:00 PM"
+    },
+    {
+      "office_id": "off_003",
+      "title": "Guidance",
+      "description": "Provides counseling, career guidance, and psychological support for students. It serves as a safe space for those dealing with personal or academic stress.",
+      "hours": ""
+    },
+    {
+      "office_id": "off_004",
+      "title": "CSG",
+      "description": "The headquarters for the elected student leaders of the campus. Campus-wide events and student initiatives are planned and organized here.",
+      "hours": ""
+    },
+    {
+      "office_id": "off_005",
+      "title": "Nexus",
+      "description": "Typically a collaborative space or student hub within the campus. It is a great spot for brainstorming, group meetings, or working on projects.",
+      "hours": ""
+    },
+    {
+      "office_id": "off_006",
+      "title": "MIS",
+      "description": "This office handles the campus's IT infrastructure and network. They are in charge of maintaining student portals and troubleshooting campus systems.",
+      "hours": ""
+    },
+    {
+      "office_id": "off_007",
+      "title": "Studio",
+      "description": "A dedicated facility for creative outputs, multimedia production, or broadcasting needs. Students use this space for video recording and audio editing assignments.",
+      "hours": ""
+    },
+    {
+      "office_id": "off_008",
+      "title": "OJT",
+      "description": "Processes requirements and endorsements for student internships. They also assist in connecting the campus with partner companies.",
+      "hours": ""
+    },
+    {
+      "office_id": "off_009",
+      "title": "Department of Computer Studies",
+      "description": "The base for CS and IT students taking their major subjects. It houses faculty rooms and consultation areas for programming-related courses.",
+      "hours": ""
+    },
+    {
+      "office_id": "off_010",
+      "title": "ICT Building B",
+      "description": "A facility filled with computer laboratories and technical lecture rooms. Hands-on database, operating systems, and networking classes are usually held here.",
+      "hours": ""
+    },
+    {
+      "office_id": "off_011",
+      "title": "CCAT Cafe",
+      "description": "A coffee shop or lounge area on campus for students and faculty. It is a perfect spot for a quick snack while coding or doing assignments.",
+      "hours": ""
+    },
+    {
+      "office_id": "off_012",
+      "title": "Comfort Room 3",
+      "description": "A public restroom facility designated for student and staff use. It is maintained for the hygiene and convenience of the campus population.",
+      "hours": ""
+    },
+    {
+      "office_id": "off_013",
+      "title": "Covered Court 2",
+      "description": "An open-air, roofed facility for sports, PE classes, and intramurals. It is also used for large campus gatherings and student assemblies.",
+      "hours": ""
+    },
+    {
+      "office_id": "off_014",
+      "title": "Hostel",
+      "description": "An accommodation facility for guests, visiting faculty, or sometimes students. It provides temporary lodging right inside the campus.",
+      "hours": ""
+    },
+    {
+      "office_id": "off_015",
+      "title": "Department of Management Studies",
+      "description": "The home building for business and management programs. Professors and staff for business administration courses have their offices here.",
+      "hours": ""
+    },
+    {
+      "office_id": "off_016",
+      "title": "TESDA",
+      "description": "An office or training center for Technical Education and Skills Development Authority programs. Vocational courses and national certification assessments are conducted here.",
+      "hours": ""
+    },
+    {
+      "office_id": "off_017",
+      "title": "Accreditation Office",
+      "description": "In charge of the quality assurance of the school's academic programs. They prepare documents for accrediting bodies to maintain campus standards.",
+      "hours": ""
+    },
+    {
+      "office_id": "off_018",
+      "title": "ODI Office",
+      "description": "Focuses on academic policies and curriculum management. They monitor teaching quality and oversee faculty development.",
+      "hours": ""
+    },
+    {
+      "office_id": "off_019",
+      "title": "Education Department",
+      "description": "The base for future teachers regarding their classes and department activities. Requirements for practice teaching are also processed here.",
+      "hours": ""
+    },
+    {
+      "office_id": "off_020",
+      "title": "CCAT E-Library",
+      "description": "A modern library facility focused more on digital resources and computer access. It is a great place for quiet online research when you need an internet connection.",
+      "hours": "7:00 AM - 6:00 PM"
+    },
+    {
+      "office_id": "off_021",
+      "title": "Canteen",
+      "description": "The main dining area of the campus where meals and snacks are sold. Friends usually meet here during lunch breaks or free periods.",
+      "hours": ""
+    },
+    {
+      "office_id": "off_022",
+      "title": "EBA",
+      "description": "This is the official school supply of the campus. Where students buy their miscellaneous stuff.",
+      "hours": ""
+    },
+    {
+      "office_id": "off_023",
+      "title": "Mechanical Department",
+      "description": "The main facility for mechanical engineering or technology students. It houses heavy equipment and workshops for hands-on technical training.",
+      "hours": ""
+    },
+    {
+      "office_id": "off_024",
+      "title": "Clinic",
+      "description": "The campus health center for medical and dental emergencies. You can get first aid and basic health consultations here.",
+      "hours": ""
+    },
+    {
+      "office_id": "off_025",
+      "title": "Automotive Department",
+      "description": "A dedicated building for automotive technology students. Practical exams and training for vehicle maintenance and repair take place here.",
+      "hours": ""
+    },
+    {
+      "office_id": "off_026",
+      "title": "Research Extension",
+      "description": "Handles institutional research and community extension projects. They facilitate seminars and the school's community outreach programs.",
+      "hours": ""
+    },
+    {
+      "office_id": "off_027",
+      "title": "Accounting Office",
+      "description": "Processes tuition fees, student accounts, and other financial transactions. They also issue clearance for balances and examination permits.",
+      "hours": ""
+    },
+    {
+      "office_id": "off_028",
+      "title": "Department of Engineering",
+      "description": "The main hub for engineering students and faculty. Major technical classes and heavy laboratory experiments are held here.",
+      "hours": ""
+    },
+    {
+      "office_id": "off_029",
+      "title": "Supply Office",
+      "description": "In charge of the procurement and distribution of school properties and equipment. Departments get their office supplies and conduct inventory here.",
+      "hours": ""
+    },
+    {
+      "office_id": "off_030",
+      "title": "Cashier",
+      "description": "The official payment center of the campus for enrollment and miscellaneous fees. Allowances or refunds can also be claimed here.",
+      "hours": ""
+    },
+    {
+      "office_id": "off_031",
+      "title": "Office of Campus Administrator",
+      "description": "The main executive office for the head of the campus. Major administrative decisions and campus management planning are done here.",
+      "hours": ""
+    },
+    {
+      "office_id": "off_032",
+      "title": "Soon",
+      "description": "A placeholder label for a facility or building that is still under construction or in the planning stage. Its official purpose will be revealed once finished.",
+      "hours": ""
+    },
+    {
+      "office_id": "off_033",
+      "title": "SHS Building",
+      "description": "The dedicated building for Senior High School students. All their classrooms and faculty offices are located here.",
+      "hours": ""
+    },
+    {
+      "office_id": "off_034",
+      "title": "PPSS",
+      "description": "In charge of campus maintenance, janitorial services, and safety. They maintain the buildings and ensure the security of the entire school.",
+      "hours": ""
+    },
+    {
+      "office_id": "off_035",
+      "title": "Covered Court 1",
+      "description": "The primary indoor sports and events facility of the campus. Large ceremonies, graduations, and major sporting events are usually held here.",
+      "hours": ""
+    },
+    {
+      "office_id": "off_036",
+      "title": "Comfort Room 2",
+      "description": "Another designated public restroom area for the convenience of students and campus visitors.",
+      "hours": ""
+    },
+    {
+      "office_id": "off_037",
+      "title": "Pavillion 2",
+      "description": "Another shaded structure space on campus that is perfect for group studies or taking a break outdoors.",
+      "hours": ""
+    },
+    {
+      "office_id": "off_038",
+      "title": "Pavillion 2",
+      "description": "Another shaded structure space on campus that is perfect for group studies or taking a break outdoors.",
+      "hours": ""
+    },
+    {
+      "office_id": "off_039",
+      "title": "Pavillion 1",
+      "description": "A shaded structure used for outdoor classes, often used for minor school gatherings or student socialization.",
+      "hours": ""
+    },
+    {
+      "office_id": "off_040",
+      "title": "Comfort Room 1",
+      "description": "A standard restroom facility situated within a key area of the campus for public use.",
+      "hours": ""
+    },
+    {
+      "office_id": "off_041",
+      "title": "Technovation Building",
+      "description": "A modern facility likely dedicated to innovation, research, and advanced tech projects. It may contain specialized laboratories or startup incubation spaces.",
+      "hours": ""
+    },
+    {
+      "office_id": "off_042",
+      "title": "ICT Building A",
+      "description": "The counterpart to Building B, also focused on computer and information technology operations. It is the current faculty of DCS instructors",
+      "hours": ""
+    },
+    {
+      "office_id": "off_043",
+      "title": "Administration Building 1",
+      "description": "Houses the key administrative offices of the campus. Top officials, human resources, and central operations are usually based here.",
+      "hours": ""
+    },
+    {
+      "office_id": "off_044",
+      "title": "Administration Building 2",
+      "description": "An extension of the main admin building for other administrative services and support staff.",
+      "hours": ""
+    },
+    {
+      "office_id": "off_045",
+      "title": "Building 2",
+      "description": "A general academic building containing standard classrooms for various minor and major subjects.",
+      "hours": ""
+    },
+    {
+      "office_id": "off_046",
+      "title": "Building 1",
+      "description": "Another primary academic structure used for general education classes, lectures, and block sections.",
+      "hours": ""
+    },
+    {
+      "office_id": "off_047",
+      "title": "Department of Arts and Sciences",
+      "description": "The base for general education subjects and arts/science majors. Professors for math, English, sciences, and humanities are stationed here.",
+      "hours": ""
+    },
+    {
+      "office_id": "off_048",
+      "title": "Library",
+      "description": "The main traditional library of the campus housing printed books, journals, and thesis archives.",
+      "hours": "7:00 AM - 6:00 PM"
+    }
+  ]
+}
