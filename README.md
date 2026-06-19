@@ -10,6 +10,8 @@
 
 **NAvSU** is an Android-based augmented reality (AR) navigation application designed to help students, visitors, and faculty navigate a university campus in real time. The app overlays directional AR markers onto the real world through the device's camera, guiding users along the **shortest path** to their selected destination using **Dijkstra's Algorithm**.
 
+> 🖥️ The **Admin Dashboard** (built with Next.js) is maintained in a separate repository: [campus-ar-admin](https://github.com/karlcyrus/campus-ar-admin)
+
 ---
 
 ## ✨ Features
@@ -42,7 +44,7 @@
 
 ```
 NAvSU/
-├── Assets/                     # Unity assets (scripts, scenes, models, UI, images)
+├── Assets/                     # Unity assets
 │   ├── Scripts/                # C# scripts (AR logic, pathfinding, UI controllers)
 │   ├── Scenes/                 # Unity scenes
 │   ├── Models/                 # 3D models and characters
@@ -52,13 +54,8 @@ NAvSU/
 │   └── Resources/              # Campus map and other runtime resources
 ├── Packages/                   # Unity package manifest
 ├── ProjectSettings/            # Unity project configuration
-│
-├── campus-ar-admin/            # Admin Dashboard (separate folder)
-│   ├── src/                    # Next.js source code
-│   ├── public/                 # Static assets
-│   ├── .env.local              # Environment config (DB credentials)
-│   ├── package.json            # Node.js dependencies
-│   └── middleware.js            # Auth middleware
+├── .gitignore
+└── .vsconfig
 ```
 
 ---
@@ -68,13 +65,11 @@ NAvSU/
 ### Prerequisites
 
 - **Unity Hub** with **Unity 2022.3.62f3** (including Android Build Support module)
-- **Node.js 18+** and **npm**
-- **MySQL Server 8.0+** (e.g., via XAMPP or MySQL Workbench)
 - **Android device** with ARCore support (for testing the mobile app)
 
 ---
 
-### 📱 Mobile App (Unity)
+### 📱 Mobile App Setup
 
 1. Clone the repository:
    ```bash
@@ -84,35 +79,6 @@ NAvSU/
 3. Unity will auto-detect the required version (`2022.3.62f3`). Install it if prompted.
 4. On first launch, Unity will regenerate the `Library` folder automatically. This may take a few minutes.
 5. To build the APK: Go to **File → Build Settings → Android → Build**.
-
----
-
-### 🖥️ Admin Dashboard (Next.js)
-
-1. Navigate to the admin dashboard folder:
-   ```bash
-   cd campus-ar-admin
-   ```
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Set up the MySQL database:
-   - Create a database named `campus_ar`.
-   - Import the provided SQL file (if available).
-4. Configure the `.env.local` file:
-   ```env
-   DB_HOST=localhost
-   DB_PORT=3306
-   DB_USER=root
-   DB_PASSWORD=
-   DB_NAME=campus_ar
-   ```
-5. Start the development server:
-   ```bash
-   npm run dev
-   ```
-6. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
