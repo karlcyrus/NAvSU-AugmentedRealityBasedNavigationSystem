@@ -198,7 +198,3 @@ NAvSU/
 This project was developed as a capstone/thesis requirement. All rights reserved.
 
 ---
-
-<p align="center">
-  <sub>Built with 💚 using Unity, Niantic Lightship, AR Foundation, and Next.js</sub>
-</p>
