@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <img src="NAvSU_Logo_v1.png" alt="NAvSU Logo" width="300" />
+  <img src="NAvSU_Logo_v1.png" alt="NAvSU Logo" width="100" />
 </p>
 
 # 📍 NAvSU — Augmented Reality-Based Campus Navigation System Utilizing Dijkstra's Algorithm
