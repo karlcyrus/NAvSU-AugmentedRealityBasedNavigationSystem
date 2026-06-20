@@ -15,9 +15,9 @@
 
 ---
 
-## ⚙️ How It Works — Technical Overview
+##  How It Works — Technical Overview
 
-### 🌐 Localization Pipeline
+###  Localization Pipeline
 
 NAvSU uses a **three-gate localization system** that must all pass simultaneously before AR navigation begins:
 
@@ -27,7 +27,7 @@ NAvSU uses a **three-gate localization system** that must all pass simultaneousl
 
 3. **Stability Timer** — All three conditions (WPS available, GPS running, accuracy within threshold) must hold continuously for a configurable duration (default: **10 seconds**) before the navigation path is spawned, preventing jitter from transient GPS spikes.
 
-### 🧮 Pathfinding — Dijkstra's Algorithm
+###  Pathfinding — Dijkstra's Algorithm
 
 The campus is modeled as a **weighted undirected graph** stored in `nav_graph.json`:
 
@@ -40,7 +40,7 @@ At navigation start, the system:
 3. Runs **Dijkstra's algorithm** using a priority queue (`SortedList`) to find the shortest path to the destination node.
 4. Returns the ordered sequence of node IDs representing the optimal route.
 
-### 📐 Mathematical Functions
+###  Mathematical Functions
 
 **Haversine Formula** — Computes the great-circle distance (in meters) between two GPS coordinates on Earth's surface:
 
@@ -52,7 +52,7 @@ Where $R = 6{,}371{,}000\text{m}$ (Earth's mean radius), $\phi$ = latitude, $\la
 
 $$\theta = \text{atan2}\left(\sin(\Delta\lambda)\cos(\phi_2),\ \cos(\phi_1)\sin(\phi_2) - \sin(\phi_1)\cos(\phi_2)\cos(\Delta\lambda)\right)$$
 
-### 🏹 AR Object Spawning
+###  AR Object Spawning
 
 Once the path is computed, the system spawns three types of AR objects anchored to GPS coordinates via Lightship's `ARWorldPositioningObjectHelper`:
 
@@ -64,7 +64,7 @@ Once the path is computed, the system spawns three types of AR objects anchored 
 
 Each object is rotated to face the next node using the computed bearing, and a **distance-based fade system** using the Haversine formula dynamically adjusts object opacity — fully visible within 25m, fully invisible beyond 35m — to reduce visual clutter and save GPU resources.
 
-### 🧭 Real-Time Guidance
+###  Real-Time Guidance
 
 During active navigation, the system continuously:
 - Tracks the user's GPS position
@@ -74,23 +74,23 @@ During active navigation, the system continuously:
 
 ---
 
-## ✨ Features
+##  Features
 
-- 🗺️ **AR Navigation** — Real-time augmented reality directional arrows overlaid on the camera view, geo-anchored via Lightship WPS.
-- 🧮 **Dijkstra's Shortest Path** — Computes the optimal route across a weighted campus navigation graph.
-- 📡 **GPS + WPS Fusion** — Combines satellite positioning with Niantic's visual localization for accurate outdoor AR placement.
-- 📐 **Haversine Distance** — Calculates real-world distances between GPS coordinates on Earth's curved surface.
-- 🧭 **Compass Bearing** — Orients AR arrows using forward azimuth computation between node pairs.
-- 👁️ **Distance-Based Fading** — Dynamically hides far-away AR objects based on Haversine distance for performance and clarity.
-- 🏫 **Campus Building Directory** — Browse or search for campus buildings with images and descriptions.
-- 🤖 **AR Guide Companion** — An optional animated 3D character that accompanies the user during navigation.
-- 🗺️ **Live Minimap** — Displays the computed path and user position in real time.
-- 🔐 **Admin Dashboard** — A web-based admin panel (Next.js) for managing campus data, offices, and destinations via REST API.
-- 📡 **Live Data Sync** — Office/destination data is fetched from a Railway-hosted API with local JSON fallback for offline resilience.
+-  **AR Navigation** — Real-time augmented reality directional arrows overlaid on the camera view, geo-anchored via Lightship WPS.
+-  **Dijkstra's Shortest Path** — Computes the optimal route across a weighted campus navigation graph.
+-  **GPS + WPS Fusion** — Combines satellite positioning with Niantic's visual localization for accurate outdoor AR placement.
+-  **Haversine Distance** — Calculates real-world distances between GPS coordinates on Earth's curved surface.
+-  **Compass Bearing** — Orients AR arrows using forward azimuth computation between node pairs.
+-  **Distance-Based Fading** — Dynamically hides far-away AR objects based on Haversine distance for performance and clarity.
+-  **Campus Building Directory** — Browse or search for campus buildings with images and descriptions.
+-  **AR Guide Companion** — An optional animated 3D character that accompanies the user during navigation.
+-  **Live Minimap** — Displays the computed path and user position in real time.
+-  **Admin Dashboard** — A web-based admin panel (Next.js) for managing campus data, offices, and destinations via REST API.
+-  **Live Data Sync** — Office/destination data is fetched from a Railway-hosted API with local JSON fallback for offline resilience.
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Component | Technology |
 |---|---|
@@ -108,7 +108,7 @@ During active navigation, the system continuously:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 NAvSU/
@@ -141,7 +141,7 @@ NAvSU/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -151,7 +151,7 @@ NAvSU/
 
 ---
 
-### 📱 Mobile App Setup
+###  Mobile App Setup
 
 1. Clone the repository:
    ```bash
@@ -164,7 +164,7 @@ NAvSU/
 
 ---
 
-### 📲 Installing the APK
+###  Installing the APK
 
 1. Transfer the `.apk` file to your Android device.
 2. Enable **Install from Unknown Sources** in your device settings.
@@ -173,7 +173,7 @@ NAvSU/
 
 ---
 
-## 📖 How to Use
+##  How to Use
 
 1. **Open** the NAvSU app on your Android device.
 2. **Wait** for the localization warmup to complete (GPS + WPS stabilization).
@@ -185,7 +185,7 @@ NAvSU/
 
 ---
 
-## 👥 Authors
+##  Authors
 
 - **Karl Cyrus Celda**
 - **Jhon Rhey G. Valleramos**
