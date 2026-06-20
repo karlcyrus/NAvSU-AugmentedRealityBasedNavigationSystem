@@ -7,6 +7,10 @@
   <img src="https://img.shields.io/badge/Platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
 </p>
 
+<p align="center">
+  <img src="media_1780641101392.png" alt="NAvSU Logo" width="200" />
+</p>
+
 # 📍 NAvSU — Augmented Reality-Based Campus Navigation System Utilizing Dijkstra's Algorithm
 
 **NAvSU** is an Android-based augmented reality (AR) campus navigation system that combines **Niantic Lightship's World Positioning System (WPS)**, **real-time GPS tracking**, and **Dijkstra's shortest path algorithm** to guide users across a university campus. The system constructs a **weighted navigation graph** of geo-referenced campus nodes and edges, computes the optimal route using graph-theoretic pathfinding, then renders directional AR markers anchored to real-world GPS coordinates through the device's camera — enabling intuitive, turn-by-turn outdoor navigation in augmented reality.
